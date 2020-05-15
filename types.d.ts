@@ -117,6 +117,8 @@ declare namespace PgBoss {
     id: string;
     name: string;
     data: T;
+    startedon: Date;
+    startafter: Date;
   }
 
   interface JobWithDoneCallback<ReqData, ResData> extends Job<ReqData> {
